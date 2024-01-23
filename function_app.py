@@ -22,6 +22,6 @@ def func_testingfunc(req: func.HttpRequest) -> func.HttpResponse:
         return func.HttpResponse(f"Hello, {name}. This HTTP triggered function executed successfully.")
     else:
         return func.HttpResponse(
-             f"This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response. sum of a+b={c}",
+             f"We ahve first created Function App This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response. sum of a+b={c}",
              status_code=200
         )
